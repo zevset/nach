@@ -1,0 +1,12 @@
+com\nach\practica\nach\api\service\EmployeeService.class
+com\nach\practica\nach\entity\Genders.class
+com\nach\practica\nach\api\EmployeeApi.class
+com\nach\practica\nach\entity\EmployeeWorkedHoursRepository.class
+com\nach\practica\nach\NachApplication.class
+com\nach\practica\nach\entity\EmployeeWorkedHours.class
+com\nach\practica\nach\entity\GendersRepository.class
+com\nach\practica\nach\entity\Employees.class
+com\nach\practica\nach\entity\Jobs.class
+com\nach\practica\nach\api\service\IEmployeeService.class
+com\nach\practica\nach\entity\JobsRepository.class
+com\nach\practica\nach\entity\EmployeesRepository.class
