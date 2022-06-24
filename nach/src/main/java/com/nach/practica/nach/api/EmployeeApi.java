@@ -51,8 +51,8 @@ public class EmployeeApi {
 
     @RequestMapping(value="/ListEmployees", method=RequestMethod.GET)
     public  List<Employees>  listEmployees(@RequestBody RequestHour res) {
-    	LOGGER.info("job_id {}", res.getId_job());
-    	return service.listEmployees(res.getId_job());
+    	LOGGER.info("job_id {}", res.getJob_id());
+    	return service.listEmployees(res.getJob_id());
 		
 	}
 
