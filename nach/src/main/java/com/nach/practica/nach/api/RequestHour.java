@@ -8,20 +8,13 @@ public class RequestHour implements Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = 7961178617429562773L;
-	private int id_job;
+	private int job_id;
 	private int employee_id;
 	private int worked_hours ;
 	private String worked_date;
 	private String start_date;
 	private String end_date;
-	
-	public int getId_job() {
-		return id_job;
-	}
 
-	public void setId_job(int id_job) {
-		this.id_job = id_job;
-	}
 
 	public int getWorked_hours() {
 		return worked_hours;
@@ -61,6 +54,14 @@ public class RequestHour implements Serializable{
 
 	public void setEnd_date(String end_date) {
 		this.end_date = end_date;
+	}
+
+	public int getJob_id() {
+		return job_id;
+	}
+
+	public void setJob_id(int job_id) {
+		this.job_id = job_id;
 	}
 	
 }
